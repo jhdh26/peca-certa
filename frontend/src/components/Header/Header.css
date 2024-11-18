@@ -1,0 +1,57 @@
+.main-header {
+    background-color: #E1BB80;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: 72px;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right-header{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 25px 60px;
+    font-size: 20px;
+}
+
+.right-header a {
+    color: white;
+    text-decoration: none; 
+}
+
+.right-header a:hover {
+    text-decoration: underline;
+}
+
+.left-header{
+    margin-right: auto;
+    padding-left: 24px;
+    font-size: 20px;
+    margin: 25px 10px;
+}
+
+.left-header a{
+    color: white;
+    text-decoration: none;
+}
+
+.left-header a:hover {
+    text-decoration: underline;
+}
+
+.left-header > h1{
+    font-size: 25px;
+    margin: 20px 20px;
+}
+
+.icon-search{
+    font-size: 20px;
+}
+
+

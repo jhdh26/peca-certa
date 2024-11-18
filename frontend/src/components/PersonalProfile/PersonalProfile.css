@@ -1,0 +1,277 @@
+.main-personalprofile {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 50px;
+}
+
+.left-personalprofile {
+    flex: 1;
+    height: 90vh;
+    background-color: #2e2e2e;
+    color: white;
+    margin-left: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.left-personalprofile > h1{
+    margin-top: 10px;
+}
+
+.content-left {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.profile-on-page{
+    font-size: 20px;
+    display:flex;
+    padding-left: 30px;
+    align-items: center;
+    border-radius: 6px;
+    gap: 25px;
+    margin-inline: 30px;
+    height: 40px;
+    background-color: #E1BB80;
+}
+
+.profile-off-page{
+    font-size: 20px;
+    display:flex;
+    padding-left: 30px;
+    align-items: center;
+    border-radius: 6px;
+    gap: 25px;
+    margin-inline: 30px;
+    height: 40px;
+}
+
+.profile-off-page:hover,.profile-on-page:hover{
+    cursor: pointer;
+}
+
+.right-personalprofile {
+    flex: 4;
+    height: 90vh;
+    background-color: #E1BB80;
+    color: #2e2e2e;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.right-profile {
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.right-profile-header{
+    display: flex;
+    padding-right: 70px;
+    justify-content: space-between;
+}
+
+.right-profile-header>h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #384D6C;
+    padding-left: 20px;
+}
+
+.right-profile-header>button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #da3a3c;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.right-profile-header>button:hover{
+    transform: scale(1.05);
+}
+
+.right-profile-items {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.items-left-profile {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.items-left-profile>img {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.left-profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-profile-text>h1 {
+    font-size: 25px;
+    color: #384D6C;
+}
+
+.left-profile-text>h2 {
+    font-size: 15px;
+    color: #6B7280;
+}
+
+.items-right-profile {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.items-right-profile>button {
+    width: 176px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-left {
+    background-color: #384D6C;
+    color: #fff;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-right {
+    background-color: #fff;
+    color: #384D6C;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.items-right-profile>button:hover {
+    transform: scale(1.05);
+}
+
+.right-profile-inputs {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.right-profile-input-mail {
+    flex: 1;
+}
+
+.form-icon-profile{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    font-size: 25px;
+    opacity: 80%;
+    color: #384D6C;
+}
+
+.right-profile-input-phone {
+    flex: 1;
+}
+
+.input-text-profile {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #2e2e2e;
+    border: none;
+    border-radius: 8px;
+}
+
+.name-profile {
+    color: #384D6C;
+}
+
+.right-profile-password {
+    padding-top: 30px;
+}
+
+.right-profile-password-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.right-profile-password-low {
+    padding-left: 40px;
+
+}
+
+.input-text-profile-low {
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #ABB1BB;
+    border: none;
+    border-radius: 8px;
+}
+
+.save-changes {
+    padding-top: 30px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+.btn-delete,
+.btn-att {
+    width: 176px;
+    height: 56px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn-delete:hover,
+.btn-att:hover {
+    transform: scale(1.05);
+}
+
+.btn-att {
+    background-color: #384D6C;
+    color: #fff;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #fff;
+    color: #384D6C;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) and (max-widht:1919px) {}

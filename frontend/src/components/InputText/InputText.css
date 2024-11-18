@@ -1,0 +1,31 @@
+.text-field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.label-text {
+    color: #f0ffffde;
+}
+
+.label-end{
+    color: #2e2e2e;
+    margin-right: 5px;
+}
+
+.account-container{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px; /* Espaço entre os labels e o input */
+    width: 100%;
+}

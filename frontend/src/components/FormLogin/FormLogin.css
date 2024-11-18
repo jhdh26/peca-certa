@@ -1,0 +1,100 @@
+.main-form {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-form::before{
+    content: '';
+    background-image: url(../../assets/fundo.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    filter:contrast(60%);
+}
+
+.left-form, .right-form {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.left-form {
+    transform: translateX(0);
+    z-index: 1;
+}
+
+.right-form {
+    transform: translateX(100%);
+    opacity: 0;
+    z-index: 0;
+}
+
+.left-form.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    z-index: 0;
+}
+
+.right-form.visible {
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 1;
+}
+
+.register-card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    background-color: #E1BB80;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.register-card > h1 {
+    color: #2e2e2e;
+    font-weight: 800;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.second-label {
+    color: #2e2e2e;
+    cursor: pointer;
+}
+
+.first-label {
+    color: white;
+}
+
+.input-text-form-login {
+    text-align: center;
+    /*width: 100%;*/
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #2e2e2e;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.name-form-login{
+    color: #f0ffffde;   
+}

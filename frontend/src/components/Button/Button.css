@@ -1,0 +1,27 @@
+.button {
+    width: 100%;
+    padding: 16px 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #E1BB80;
+    background: #2e2e2e;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #7c6746;
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 16px 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .button {
+        padding: 16px 150px;
+    }
+}
