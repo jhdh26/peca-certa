@@ -38,5 +38,5 @@ Sistema de aluguel com reconhecimento do produto pelo seu **ID**, e ao clicar em
 Pagina de **PERFIL DO USUARIO** com perfil personalizado, botão para **LOGOUT**, atualização e remoção de foto de perfil e pagina de **PEDIDOS**.
 
 <img src="../peca-certa/readme-img/perfil.png" alt="Tela de Perfil">
-<img src="../peca-certa/readme-img/pedidos.png" alt="Tela de Pedidos">
+<img src="./readme-img/pedidos.png" alt="Tela de Pedidos">
 
